@@ -36,7 +36,7 @@ This project is a Workflow API built with FastAPI, networkX, pytest, Pydantic, a
     Activation:
     On Windows, the command is
     ```
-    .\venv\Scripts\activate.
+    .\venv\Scripts\activate
     ```
     On Unix or MacOS, the command is source
     ```
