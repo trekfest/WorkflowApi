@@ -33,16 +33,21 @@ This project is a Workflow API built with FastAPI, networkX, pytest, Pydantic, a
     ```
     pip install -r requirements.txt
     ```
-3. Run the application:
+3. Import the dump.sql file into MySQL:
+    ```
+    mysql -u [username] -p [database_name] < dump.sql
+    ```
+
+4. Run the application:
     ```
     uvicorn main:app --reload
     ```
-4. Access the API documentation:
+5. Access the API documentation:
     ```
     http://localhost:8000/docs
     ```
 
-5.  Run the tests:
+6.  Run the tests:
     ```
     pytest test.py
     ```
