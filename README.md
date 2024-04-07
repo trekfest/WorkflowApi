@@ -24,3 +24,25 @@ This project is a Workflow API built with FastAPI, networkX, pytest, Pydantic, a
 - **SQLAlchemy or tortoiseorm**: For database operations.
 
 ## Getting Started
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/trekfest/WorkflowApi.git
+    ```
+2. Install the dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
+3. Run the application:
+    ```
+    uvicorn main:app --reload
+    ```
+4. Access the API documentation:
+    ```
+    http://localhost:8000/docs
+    ```
+
+5.  Run the tests:
+    ```
+    pytest test.py
+    ```
