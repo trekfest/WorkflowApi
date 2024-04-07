@@ -32,11 +32,13 @@ This project is a Workflow API built with FastAPI, networkX, pytest, Pydantic, a
 2.  Create the virtual environmen
     ```
     python -m venv venv
+    ```
     Activation:
     ```
     On Windows, the command is
     ```
     .\venv\Scripts\activate.
+    ```
     On Unix or MacOS, the command is source
     ```
     .venv/bin/activate
