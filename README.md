@@ -27,27 +27,35 @@ This project is a Workflow API built with FastAPI, networkX, pytest, Pydantic, a
 
 1. Clone the repository:
     ```
-    git clone https://github.com/trekfest/WorkflowApi.git
+    git clone https://github.com/trekfest/WorkflowAp.git
     ```
-2. Install the dependencies:
+2.  Create the virtual environmen
+    ```
+    python -m venv venv
+    Activation:
+    ```
+    On Windows, the command is .\venv\Scripts\activate.
+    On Unix or MacOS, the command is source .venv/bin/activate
+    ```
+3. Install the dependencies:
     ```
     pip install -r requirements.txt
     ```
-3. Import the dump.sql file into MySQL:
+4. Import the dump.sql file into MySQL:
     ```
     mysql -u [username] -p [database_name] < dump.sql
     ```
 
-4. Run the application:
+5. Run the application:
     ```
     uvicorn main:app --reload
     ```
-5. Access the API documentation:
+6. Access the API documentation:
     ```
     http://localhost:8000/docs
     ```
 
-6.  Run the tests:
+7.  Run the tests:
     ```
     pytest test.py
     ```
