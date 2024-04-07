@@ -34,7 +34,6 @@ This project is a Workflow API built with FastAPI, networkX, pytest, Pydantic, a
     python -m venv venv
     ```
     Activation:
-    ```
     On Windows, the command is
     ```
     .\venv\Scripts\activate.
